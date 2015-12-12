@@ -1,0 +1,11 @@
+module ie{
+   module gmit{
+      module sw{
+         module breaker{
+            interface VigenereBreaker{
+               string decrypt(in string cypherText,in long maxKeyLength);
+            };
+         };
+      };
+   };
+};
